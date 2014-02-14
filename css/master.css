@@ -3196,6 +3196,12 @@ html {
 }
 
 /* line 13, ../sass/master.scss */
+body.animated {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+}
+
+/* line 19, ../sass/master.scss */
 .container {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -3203,18 +3209,18 @@ html {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 17, ../sass/master.scss */
+/* line 23, ../sass/master.scss */
 .active {
   -webkit-transform: scale(1.05, 1.05);
   -webkit-filter: blur(5px);
   opacity: .4;
 }
-/* line 18, ../sass/master.scss */
+/* line 24, ../sass/master.scss */
 .active .row {
   -webkit-animation-play-state: paused;
 }
 
-/* line 26, ../sass/master.scss */
+/* line 32, ../sass/master.scss */
 .row {
   display: block;
   width: 100%;
@@ -3222,68 +3228,68 @@ html {
 }
 
 @-webkit-keyframes animatedBackground {
-  /* line 33, ../sass/master.scss */
+  /* line 39, ../sass/master.scss */
   from {
     background-position: 1467px 0;
   }
 
-  /* line 34, ../sass/master.scss */
+  /* line 40, ../sass/master.scss */
   to {
     background-position: 0 0;
   }
 }
 
-/* line 37, ../sass/master.scss */
+/* line 43, ../sass/master.scss */
 .row-1 {
   background-image: url(../images/row-1.jpg);
   background-position: 10px 0px;
-  animation: animatedBackground 25s linear infinite;
-  -webkit-animation: animatedBackground 25s linear infinite;
-  -moz-animation: animatedBackground 25s linear infinite;
-  -ms-animation: animatedBackground 25s linear infinite;
-}
-
-/* line 46, ../sass/master.scss */
-.row-2 {
-  background-image: url(../images/row-2.jpg);
-  background-position: 30px 0px;
   animation: animatedBackground 30s linear infinite;
   -webkit-animation: animatedBackground 30s linear infinite;
   -moz-animation: animatedBackground 30s linear infinite;
   -ms-animation: animatedBackground 30s linear infinite;
 }
 
-/* line 55, ../sass/master.scss */
-.row-3 {
-  background-image: url(../images/row-3.jpg);
-  background-position: -20px 0px;
+/* line 52, ../sass/master.scss */
+.row-2 {
+  background-image: url(../images/row-2.jpg);
+  background-position: 30px 0px;
   animation: animatedBackground 35s linear infinite;
   -webkit-animation: animatedBackground 35s linear infinite;
   -moz-animation: animatedBackground 35s linear infinite;
   -ms-animation: animatedBackground 35s linear infinite;
 }
 
-/* line 64, ../sass/master.scss */
-.row-4 {
-  background-image: url(../images/row-4.jpg);
-  background-position: 50px 0px;
+/* line 61, ../sass/master.scss */
+.row-3 {
+  background-image: url(../images/row-3.jpg);
+  background-position: -20px 0px;
   animation: animatedBackground 40s linear infinite;
   -webkit-animation: animatedBackground 40s linear infinite;
   -moz-animation: animatedBackground 40s linear infinite;
   -ms-animation: animatedBackground 40s linear infinite;
 }
 
-/* line 73, ../sass/master.scss */
+/* line 70, ../sass/master.scss */
+.row-4 {
+  background-image: url(../images/row-4.jpg);
+  background-position: 50px 0px;
+  animation: animatedBackground 45s linear infinite;
+  -webkit-animation: animatedBackground 45s linear infinite;
+  -moz-animation: animatedBackground 45s linear infinite;
+  -ms-animation: animatedBackground 45s linear infinite;
+}
+
+/* line 79, ../sass/master.scss */
 .row-5 {
   background-image: url(../images/row-5.jpg);
   background-position: 0px 0px;
-  animation: animatedBackground 50s linear infinite;
-  -webkit-animation: animatedBackground 50s linear infinite;
-  -moz-animation: animatedBackground 50s linear infinite;
-  -ms-animation: animatedBackground 50s linear infinite;
+  animation: animatedBackground 55s linear infinite;
+  -webkit-animation: animatedBackground 55s linear infinite;
+  -moz-animation: animatedBackground 55s linear infinite;
+  -ms-animation: animatedBackground 55s linear infinite;
 }
 
-/* line 82, ../sass/master.scss */
+/* line 88, ../sass/master.scss */
 footer {
   width: 100%;
   height: 700px;
@@ -3297,7 +3303,7 @@ footer {
   background: linear-gradient(rgba(0, 0, 0, 0), #000000);
 }
 
-/* line 91, ../sass/master.scss */
+/* line 97, ../sass/master.scss */
 a.cta {
   position: absolute;
   bottom: 70px;
@@ -3312,12 +3318,12 @@ a.cta {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
   border-radius: 3px;
 }
-/* line 105, ../sass/master.scss */
+/* line 111, ../sass/master.scss */
 a.cta:active {
   bottom: 69px;
 }
 
-/* line 110, ../sass/master.scss */
+/* line 116, ../sass/master.scss */
 .legal {
   width: 380px;
   position: absolute;
@@ -3330,7 +3336,7 @@ a.cta:active {
   color: #4d4841;
 }
 
-/* line 122, ../sass/master.scss */
+/* line 128, ../sass/master.scss */
 .child-profile {
   display: none;
   width: 904px;

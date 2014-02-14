@@ -1,4 +1,7 @@
 $(function() {
+
+	$('body').addClass('animated fadeIn');
+
 	$('.row').click(function() {
 		if($('.container').hasClass('active')) {
 			$('.child-profile').removeClass('bounceInUp').addClass('bounceOutDown');

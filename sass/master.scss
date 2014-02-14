@@ -10,6 +10,12 @@ html {
 	background-color: #000;
 }
 
+body.animated {
+	-webkit-animation-duration: 4s;
+	animation-duration: 4s;
+    // -webkit-animation-delay: .5s;
+}
+
 .container {
 	@include transition(all .3s ease-in-out);
 }
@@ -37,46 +43,46 @@ html {
 .row-1 {
 	background-image: url(../images/row-1.jpg);
 	background-position: 10px 0px;
-	animation: animatedBackground 25s linear infinite;
-	-webkit-animation: animatedBackground 25s linear infinite;
-	-moz-animation: animatedBackground 25s linear infinite;
-	-ms-animation: animatedBackground 25s linear infinite;
-}
-
-.row-2 {
-	background-image: url(../images/row-2.jpg);
-	background-position: 30px 0px;
 	animation: animatedBackground 30s linear infinite;
 	-webkit-animation: animatedBackground 30s linear infinite;
 	-moz-animation: animatedBackground 30s linear infinite;
 	-ms-animation: animatedBackground 30s linear infinite;
 }
 
-.row-3 {
-	background-image: url(../images/row-3.jpg);
-	background-position: -20px 0px;
+.row-2 {
+	background-image: url(../images/row-2.jpg);
+	background-position: 30px 0px;
 	animation: animatedBackground 35s linear infinite;
 	-webkit-animation: animatedBackground 35s linear infinite;
 	-moz-animation: animatedBackground 35s linear infinite;
 	-ms-animation: animatedBackground 35s linear infinite;
 }
 
-.row-4 {
-	background-image: url(../images/row-4.jpg);
-	background-position: 50px 0px;
+.row-3 {
+	background-image: url(../images/row-3.jpg);
+	background-position: -20px 0px;
 	animation: animatedBackground 40s linear infinite;
 	-webkit-animation: animatedBackground 40s linear infinite;
 	-moz-animation: animatedBackground 40s linear infinite;
 	-ms-animation: animatedBackground 40s linear infinite;
 }
 
+.row-4 {
+	background-image: url(../images/row-4.jpg);
+	background-position: 50px 0px;
+	animation: animatedBackground 45s linear infinite;
+	-webkit-animation: animatedBackground 45s linear infinite;
+	-moz-animation: animatedBackground 45s linear infinite;
+	-ms-animation: animatedBackground 45s linear infinite;
+}
+
 .row-5 {
 	background-image: url(../images/row-5.jpg);
 	background-position: 0px 0px;
-	animation: animatedBackground 50s linear infinite;
-	-webkit-animation: animatedBackground 50s linear infinite;
-	-moz-animation: animatedBackground 50s linear infinite;
-	-ms-animation: animatedBackground 50s linear infinite;
+	animation: animatedBackground 55s linear infinite;
+	-webkit-animation: animatedBackground 55s linear infinite;
+	-moz-animation: animatedBackground 55s linear infinite;
+	-ms-animation: animatedBackground 55s linear infinite;
 }
 
 footer {
