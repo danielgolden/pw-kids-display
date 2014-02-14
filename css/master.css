@@ -3199,9 +3199,19 @@ html {
 body.animated {
   -webkit-animation-duration: 4s;
   animation-duration: 4s;
+  -webkit-animation-delay: .5s;
 }
 
 /* line 19, ../sass/master.scss */
+.wrapper {
+  visibility: hidden;
+}
+/* line 22, ../sass/master.scss */
+.wrapper.animated {
+  visibility: visible;
+}
+
+/* line 27, ../sass/master.scss */
 .container {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -3209,18 +3219,18 @@ body.animated {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 23, ../sass/master.scss */
+/* line 31, ../sass/master.scss */
 .active {
   -webkit-transform: scale(1.05, 1.05);
   -webkit-filter: blur(5px);
   opacity: .4;
 }
-/* line 24, ../sass/master.scss */
+/* line 32, ../sass/master.scss */
 .active .row {
   -webkit-animation-play-state: paused;
 }
 
-/* line 32, ../sass/master.scss */
+/* line 40, ../sass/master.scss */
 .row {
   display: block;
   width: 100%;
@@ -3228,18 +3238,18 @@ body.animated {
 }
 
 @-webkit-keyframes animatedBackground {
-  /* line 39, ../sass/master.scss */
+  /* line 47, ../sass/master.scss */
   from {
     background-position: 1467px 0;
   }
 
-  /* line 40, ../sass/master.scss */
+  /* line 48, ../sass/master.scss */
   to {
     background-position: 0 0;
   }
 }
 
-/* line 43, ../sass/master.scss */
+/* line 51, ../sass/master.scss */
 .row-1 {
   background-image: url(../images/row-1.jpg);
   background-position: 10px 0px;
@@ -3249,7 +3259,7 @@ body.animated {
   -ms-animation: animatedBackground 30s linear infinite;
 }
 
-/* line 52, ../sass/master.scss */
+/* line 60, ../sass/master.scss */
 .row-2 {
   background-image: url(../images/row-2.jpg);
   background-position: 30px 0px;
@@ -3259,7 +3269,7 @@ body.animated {
   -ms-animation: animatedBackground 35s linear infinite;
 }
 
-/* line 61, ../sass/master.scss */
+/* line 69, ../sass/master.scss */
 .row-3 {
   background-image: url(../images/row-3.jpg);
   background-position: -20px 0px;
@@ -3269,7 +3279,7 @@ body.animated {
   -ms-animation: animatedBackground 40s linear infinite;
 }
 
-/* line 70, ../sass/master.scss */
+/* line 78, ../sass/master.scss */
 .row-4 {
   background-image: url(../images/row-4.jpg);
   background-position: 50px 0px;
@@ -3279,7 +3289,7 @@ body.animated {
   -ms-animation: animatedBackground 45s linear infinite;
 }
 
-/* line 79, ../sass/master.scss */
+/* line 87, ../sass/master.scss */
 .row-5 {
   background-image: url(../images/row-5.jpg);
   background-position: 0px 0px;
@@ -3289,7 +3299,7 @@ body.animated {
   -ms-animation: animatedBackground 55s linear infinite;
 }
 
-/* line 88, ../sass/master.scss */
+/* line 96, ../sass/master.scss */
 footer {
   width: 100%;
   height: 700px;
@@ -3303,7 +3313,7 @@ footer {
   background: linear-gradient(rgba(0, 0, 0, 0), #000000);
 }
 
-/* line 97, ../sass/master.scss */
+/* line 105, ../sass/master.scss */
 a.cta {
   position: absolute;
   bottom: 70px;
@@ -3318,12 +3328,12 @@ a.cta {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
   border-radius: 3px;
 }
-/* line 111, ../sass/master.scss */
+/* line 119, ../sass/master.scss */
 a.cta:active {
   bottom: 69px;
 }
 
-/* line 116, ../sass/master.scss */
+/* line 124, ../sass/master.scss */
 .legal {
   width: 380px;
   position: absolute;
@@ -3336,7 +3346,7 @@ a.cta:active {
   color: #4d4841;
 }
 
-/* line 128, ../sass/master.scss */
+/* line 136, ../sass/master.scss */
 .child-profile {
   display: none;
   width: 904px;
@@ -3344,6 +3354,20 @@ a.cta:active {
   margin: auto;
   position: absolute;
   z-index: 100;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 146, ../sass/master.scss */
+.loading {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  position: absolute;
+  z-index: 1000;
   top: 0;
   left: 0;
   bottom: 0;

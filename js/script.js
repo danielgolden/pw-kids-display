@@ -1,6 +1,6 @@
 $(function() {
-
-	$('body').addClass('animated fadeIn');
+	$('.loading').hide();
+	$('.wrapper').addClass('animated fadeIn');
 
 	$('.row').click(function() {
 		if($('.container').hasClass('active')) {

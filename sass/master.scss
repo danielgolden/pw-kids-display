@@ -13,7 +13,15 @@ html {
 body.animated {
 	-webkit-animation-duration: 4s;
 	animation-duration: 4s;
-    // -webkit-animation-delay: .5s;
+    -webkit-animation-delay: .5s;
+}
+
+.wrapper {
+	visibility: hidden;
+
+	&.animated {
+		visibility: visible;
+	}
 }
 
 .container {
@@ -132,5 +140,15 @@ a.cta {
 	margin: auto;
 	position: absolute;
 	z-index: 100;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.loading {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin:  auto;
+	position: absolute;
+	z-index: 1000;
 	top: 0; left: 0; bottom: 0; right: 0;
 }
