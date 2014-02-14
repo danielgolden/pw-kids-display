@@ -3317,7 +3317,7 @@ footer {
 a.cta {
   position: absolute;
   bottom: 70px;
-  left: 300px;
+  left: 200px;
   padding: 18px 25px 14px;
   font-size: 20px;
   font-weight: bold;
@@ -3338,7 +3338,7 @@ a.cta:active {
   width: 380px;
   position: absolute;
   bottom: 77px;
-  right: 300px;
+  right: 200px;
   font-family: 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
   font-size: 13px;
   line-height: 19px;
