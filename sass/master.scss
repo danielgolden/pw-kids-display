@@ -1,8 +1,26 @@
 @import "compass/reset";
-@import "compass/css3/images";
+@import "compass/css3";
+@import "../bower_components/animate.css/animate.scss";
 
 * {
 	-webkit-font-smoothing: antialiased;
+}
+
+html {
+	background-color: #000;
+}
+
+.container {
+	@include transition(all .3s ease-in-out);
+}
+
+.active {
+	.row {
+		-webkit-animation-play-state: paused;
+	}
+	-webkit-transform: scale(1.05, 1.05);
+	-webkit-filter: blur(5px);
+	opacity: .4;
 }
 
 .row {
@@ -66,7 +84,7 @@ footer {
 	height: 700px;
 	position: absolute;
 	bottom: 0px;
-	pointer-events:none;
+	pointer-events:none !important;
 	@include background(linear-gradient(rgba(0,0,0, .0), #000));
 }
 
@@ -95,4 +113,14 @@ a.cta {
 	line-height: 19px;
 	text-align: right;
 	color: #4d4841;
+}
+
+.child-profile {
+	display: none;
+	width: 904px;
+	height: 492px;
+	margin: auto;
+	position: absolute;
+	z-index: 100;
+	top: 0; left: 0; bottom: 0; right: 0;
 }
