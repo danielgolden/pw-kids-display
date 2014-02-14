@@ -1,0 +1,181 @@
+/* line 17, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/master.scss */
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 8, ../sass/master.scss */
+.row {
+  display: block;
+  width: 100%;
+  height: 163px;
+}
+
+@-webkit-keyframes animatedBackground {
+  /* line 15, ../sass/master.scss */
+  from {
+    background-position: 1467px 0;
+  }
+
+  /* line 16, ../sass/master.scss */
+  to {
+    background-position: 0 0;
+  }
+}
+
+/* line 19, ../sass/master.scss */
+.row-1 {
+  background-image: url(../images/row-1.jpg);
+  background-position: 10px 0px;
+  animation: animatedBackground 25s linear infinite;
+  -webkit-animation: animatedBackground 25s linear infinite;
+  -moz-animation: animatedBackground 25s linear infinite;
+  -ms-animation: animatedBackground 25s linear infinite;
+}
+
+/* line 28, ../sass/master.scss */
+.row-2 {
+  background-image: url(../images/row-2.jpg);
+  background-position: 30px 0px;
+  animation: animatedBackground 30s linear infinite;
+  -webkit-animation: animatedBackground 30s linear infinite;
+  -moz-animation: animatedBackground 30s linear infinite;
+  -ms-animation: animatedBackground 30s linear infinite;
+}
+
+/* line 37, ../sass/master.scss */
+.row-3 {
+  background-image: url(../images/row-3.jpg);
+  background-position: -20px 0px;
+  animation: animatedBackground 35s linear infinite;
+  -webkit-animation: animatedBackground 35s linear infinite;
+  -moz-animation: animatedBackground 35s linear infinite;
+  -ms-animation: animatedBackground 35s linear infinite;
+}
+
+/* line 46, ../sass/master.scss */
+.row-4 {
+  background-image: url(../images/row-4.jpg);
+  background-position: 50px 0px;
+  animation: animatedBackground 40s linear infinite;
+  -webkit-animation: animatedBackground 40s linear infinite;
+  -moz-animation: animatedBackground 40s linear infinite;
+  -ms-animation: animatedBackground 40s linear infinite;
+}
+
+/* line 55, ../sass/master.scss */
+.row-5 {
+  background-image: url(../images/row-5.jpg);
+  background-position: 0px 0px;
+  animation: animatedBackground 50s linear infinite;
+  -webkit-animation: animatedBackground 50s linear infinite;
+  -moz-animation: animatedBackground 50s linear infinite;
+  -ms-animation: animatedBackground 50s linear infinite;
+}
+
+/* line 64, ../sass/master.scss */
+footer {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  bottom: 0px;
+  pointer-events: none;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0), #000000);
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0), #000000);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0), #000000);
+  background: linear-gradient(rgba(0, 0, 0, 0), #000000);
+}
+
+/* line 73, ../sass/master.scss */
+a.cta {
+  position: absolute;
+  bottom: 70px;
+  left: 300px;
+  padding: 18px 25px 14px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
+  color: #fff;
+  background-color: #198c45;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+
+/* line 88, ../sass/master.scss */
+.legal {
+  width: 380px;
+  position: absolute;
+  bottom: 77px;
+  right: 300px;
+  font-family: 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: right;
+  color: #4d4841;
+}

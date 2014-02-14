@@ -1,0 +1,98 @@
+@import "compass/reset";
+@import "compass/css3/images";
+
+* {
+	-webkit-font-smoothing: antialiased;
+}
+
+.row {
+	display: block;
+	width: 100%;
+	height: 163px;
+}
+
+@-webkit-keyframes animatedBackground {
+	from { background-position: 1467px 0; }
+	to { background-position: 0 0; }
+}
+
+.row-1 {
+	background-image: url(../images/row-1.jpg);
+	background-position: 10px 0px;
+	animation: animatedBackground 25s linear infinite;
+	-webkit-animation: animatedBackground 25s linear infinite;
+	-moz-animation: animatedBackground 25s linear infinite;
+	-ms-animation: animatedBackground 25s linear infinite;
+}
+
+.row-2 {
+	background-image: url(../images/row-2.jpg);
+	background-position: 30px 0px;
+	animation: animatedBackground 30s linear infinite;
+	-webkit-animation: animatedBackground 30s linear infinite;
+	-moz-animation: animatedBackground 30s linear infinite;
+	-ms-animation: animatedBackground 30s linear infinite;
+}
+
+.row-3 {
+	background-image: url(../images/row-3.jpg);
+	background-position: -20px 0px;
+	animation: animatedBackground 35s linear infinite;
+	-webkit-animation: animatedBackground 35s linear infinite;
+	-moz-animation: animatedBackground 35s linear infinite;
+	-ms-animation: animatedBackground 35s linear infinite;
+}
+
+.row-4 {
+	background-image: url(../images/row-4.jpg);
+	background-position: 50px 0px;
+	animation: animatedBackground 40s linear infinite;
+	-webkit-animation: animatedBackground 40s linear infinite;
+	-moz-animation: animatedBackground 40s linear infinite;
+	-ms-animation: animatedBackground 40s linear infinite;
+}
+
+.row-5 {
+	background-image: url(../images/row-5.jpg);
+	background-position: 0px 0px;
+	animation: animatedBackground 50s linear infinite;
+	-webkit-animation: animatedBackground 50s linear infinite;
+	-moz-animation: animatedBackground 50s linear infinite;
+	-ms-animation: animatedBackground 50s linear infinite;
+}
+
+footer {
+	width: 100%;
+	height: 700px;
+	position: absolute;
+	bottom: 0px;
+	pointer-events:none;
+	@include background(linear-gradient(rgba(0,0,0, .0), #000));
+}
+
+a.cta {
+	position: absolute;
+	bottom: 70px;
+	left: 300px;
+	padding: 18px 25px 14px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
+	color: #fff;
+	background-color: #198c45;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0,0,0, .5);
+	border-radius: 3px;
+}
+
+.legal {
+	width: 380px;
+	position: absolute;
+	bottom: 77px;
+	right: 300px;
+	font-family: 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 19px;
+	text-align: right;
+	color: #4d4841;
+}
