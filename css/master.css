@@ -1,4 +1,5 @@
-/* line 17, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+@charset "UTF-8";
+/* line 5, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,46 +21,46 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+/* line 116, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
@@ -108,7 +109,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-15px);
   }
 }
-
 @keyframes bounce {
   /* line 47, ../bower_components/animate.css/animate.scss */
   0%, 20%, 50%, 80%, 100% {
@@ -131,7 +131,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-15px);
   }
 }
-
 /* line 66, ../bower_components/animate.css/animate.scss */
 .bounce {
   -webkit-animation-name: bounce;
@@ -149,7 +148,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 @keyframes flash {
   /* line 82, ../bower_components/animate.css/animate.scss */
   0%, 50%, 100% {
@@ -161,7 +159,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 /* line 91, ../bower_components/animate.css/animate.scss */
 .flash {
   -webkit-animation-name: flash;
@@ -188,7 +185,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(1);
   }
 }
-
 @keyframes pulse {
   /* line 116, ../bower_components/animate.css/animate.scss */
   0% {
@@ -211,7 +207,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(1);
   }
 }
-
 /* line 135, ../bower_components/animate.css/animate.scss */
 .pulse {
   -webkit-animation-name: pulse;
@@ -237,7 +232,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(10px);
   }
 }
-
 @keyframes shake {
   /* line 158, ../bower_components/animate.css/animate.scss */
   0%, 100% {
@@ -260,7 +254,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(10px);
   }
 }
-
 /* line 177, ../bower_components/animate.css/animate.scss */
 .shake {
   -webkit-animation-name: shake;
@@ -298,7 +291,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: rotate(0deg);
   }
 }
-
 @keyframes swing {
   /* line 210, ../bower_components/animate.css/animate.scss */
   20% {
@@ -335,7 +327,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: rotate(0deg);
   }
 }
-
 /* line 241, ../bower_components/animate.css/animate.scss */
 .swing {
   -webkit-transform-origin: top center;
@@ -376,7 +367,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(1) rotate(0);
   }
 }
-
 @keyframes tada {
   /* line 277, ../bower_components/animate.css/animate.scss */
   0% {
@@ -413,7 +403,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(1) rotate(0);
   }
 }
-
 /* line 308, ../bower_components/animate.css/animate.scss */
 .tada {
   -webkit-animation-name: tada;
@@ -464,7 +453,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0%);
   }
 }
-
 @keyframes wobble {
   /* line 353, ../bower_components/animate.css/animate.scss */
   0% {
@@ -515,7 +503,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0%);
   }
 }
-
 /* line 396, ../bower_components/animate.css/animate.scss */
 .wobble {
   -webkit-animation-name: wobble;
@@ -549,7 +536,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(1);
   }
 }
-
 @keyframes bounceIn {
   /* line 426, ../bower_components/animate.css/animate.scss */
   0% {
@@ -581,7 +567,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(1);
   }
 }
-
 /* line 453, ../bower_components/animate.css/animate.scss */
 .bounceIn {
   -webkit-animation-name: bounceIn;
@@ -615,7 +600,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-
 @keyframes bounceInDown {
   /* line 483, ../bower_components/animate.css/animate.scss */
   0% {
@@ -647,7 +631,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-
 /* line 510, ../bower_components/animate.css/animate.scss */
 .bounceInDown {
   -webkit-animation-name: bounceInDown;
@@ -681,7 +664,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 @keyframes bounceInLeft {
   /* line 540, ../bower_components/animate.css/animate.scss */
   0% {
@@ -713,7 +695,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 /* line 567, ../bower_components/animate.css/animate.scss */
 .bounceInLeft {
   -webkit-animation-name: bounceInLeft;
@@ -747,7 +728,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 @keyframes bounceInRight {
   /* line 597, ../bower_components/animate.css/animate.scss */
   0% {
@@ -779,7 +759,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 /* line 624, ../bower_components/animate.css/animate.scss */
 .bounceInRight {
   -webkit-animation-name: bounceInRight;
@@ -813,7 +792,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-
 @keyframes bounceInUp {
   /* line 654, ../bower_components/animate.css/animate.scss */
   0% {
@@ -845,7 +823,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-
 /* line 681, ../bower_components/animate.css/animate.scss */
 .bounceInUp {
   -webkit-animation-name: bounceInUp;
@@ -879,7 +856,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(0.3);
   }
 }
-
 @keyframes bounceOut {
   /* line 711, ../bower_components/animate.css/animate.scss */
   0% {
@@ -911,7 +887,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: scale(0.3);
   }
 }
-
 /* line 738, ../bower_components/animate.css/animate.scss */
 .bounceOut {
   -webkit-animation-name: bounceOut;
@@ -939,7 +914,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(2000px);
   }
 }
-
 @keyframes bounceOutDown {
   /* line 763, ../bower_components/animate.css/animate.scss */
   0% {
@@ -964,7 +938,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(2000px);
   }
 }
-
 /* line 784, ../bower_components/animate.css/animate.scss */
 .bounceOutDown {
   -webkit-animation-name: bounceOutDown;
@@ -992,7 +965,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-2000px);
   }
 }
-
 @keyframes bounceOutLeft {
   /* line 809, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1017,7 +989,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-2000px);
   }
 }
-
 /* line 830, ../bower_components/animate.css/animate.scss */
 .bounceOutLeft {
   -webkit-animation-name: bounceOutLeft;
@@ -1045,7 +1016,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(2000px);
   }
 }
-
 @keyframes bounceOutRight {
   /* line 855, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1070,7 +1040,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(2000px);
   }
 }
-
 /* line 876, ../bower_components/animate.css/animate.scss */
 .bounceOutRight {
   -webkit-animation-name: bounceOutRight;
@@ -1098,7 +1067,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-2000px);
   }
 }
-
 @keyframes bounceOutUp {
   /* line 901, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1123,7 +1091,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-2000px);
   }
 }
-
 /* line 922, ../bower_components/animate.css/animate.scss */
 .bounceOutUp {
   -webkit-animation-name: bounceOutUp;
@@ -1141,7 +1108,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 @keyframes fadeIn {
   /* line 938, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1153,7 +1119,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 /* line 947, ../bower_components/animate.css/animate.scss */
 .fadeIn {
   -webkit-animation-name: fadeIn;
@@ -1175,7 +1140,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-
 @keyframes fadeInDown {
   /* line 967, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1193,7 +1157,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-
 /* line 982, ../bower_components/animate.css/animate.scss */
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
@@ -1215,7 +1178,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-
 @keyframes fadeInDownBig {
   /* line 1002, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1233,7 +1195,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-
 /* line 1017, ../bower_components/animate.css/animate.scss */
 .fadeInDownBig {
   -webkit-animation-name: fadeInDownBig;
@@ -1255,7 +1216,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 @keyframes fadeInLeft {
   /* line 1037, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1273,7 +1233,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 /* line 1052, ../bower_components/animate.css/animate.scss */
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
@@ -1295,7 +1254,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 @keyframes fadeInLeftBig {
   /* line 1072, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1313,7 +1271,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 /* line 1087, ../bower_components/animate.css/animate.scss */
 .fadeInLeftBig {
   -webkit-animation-name: fadeInLeftBig;
@@ -1335,7 +1292,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 @keyframes fadeInRight {
   /* line 1107, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1353,7 +1309,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 /* line 1122, ../bower_components/animate.css/animate.scss */
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
@@ -1375,7 +1330,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 @keyframes fadeInRightBig {
   /* line 1142, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1393,7 +1347,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 /* line 1157, ../bower_components/animate.css/animate.scss */
 .fadeInRightBig {
   -webkit-animation-name: fadeInRightBig;
@@ -1415,7 +1368,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-
 @keyframes fadeInUp {
   /* line 1177, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1433,7 +1385,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-
 /* line 1192, ../bower_components/animate.css/animate.scss */
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
@@ -1455,7 +1406,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-
 @keyframes fadeInUpBig {
   /* line 1212, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1473,7 +1423,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-
 /* line 1227, ../bower_components/animate.css/animate.scss */
 .fadeInUpBig {
   -webkit-animation-name: fadeInUpBig;
@@ -1491,7 +1440,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 @keyframes fadeOut {
   /* line 1243, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1503,7 +1451,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 /* line 1252, ../bower_components/animate.css/animate.scss */
 .fadeOut {
   -webkit-animation-name: fadeOut;
@@ -1525,7 +1472,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(20px);
   }
 }
-
 @keyframes fadeOutDown {
   /* line 1272, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1543,7 +1489,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(20px);
   }
 }
-
 /* line 1287, ../bower_components/animate.css/animate.scss */
 .fadeOutDown {
   -webkit-animation-name: fadeOutDown;
@@ -1565,7 +1510,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(2000px);
   }
 }
-
 @keyframes fadeOutDownBig {
   /* line 1307, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1583,7 +1527,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(2000px);
   }
 }
-
 /* line 1322, ../bower_components/animate.css/animate.scss */
 .fadeOutDownBig {
   -webkit-animation-name: fadeOutDownBig;
@@ -1605,7 +1548,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-20px);
   }
 }
-
 @keyframes fadeOutLeft {
   /* line 1342, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1623,7 +1565,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-20px);
   }
 }
-
 /* line 1357, ../bower_components/animate.css/animate.scss */
 .fadeOutLeft {
   -webkit-animation-name: fadeOutLeft;
@@ -1645,7 +1586,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-2000px);
   }
 }
-
 @keyframes fadeOutLeftBig {
   /* line 1377, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1663,7 +1603,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-2000px);
   }
 }
-
 /* line 1392, ../bower_components/animate.css/animate.scss */
 .fadeOutLeftBig {
   -webkit-animation-name: fadeOutLeftBig;
@@ -1685,7 +1624,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(20px);
   }
 }
-
 @keyframes fadeOutRight {
   /* line 1412, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1703,7 +1641,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(20px);
   }
 }
-
 /* line 1427, ../bower_components/animate.css/animate.scss */
 .fadeOutRight {
   -webkit-animation-name: fadeOutRight;
@@ -1725,7 +1662,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(2000px);
   }
 }
-
 @keyframes fadeOutRightBig {
   /* line 1447, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1743,7 +1679,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(2000px);
   }
 }
-
 /* line 1462, ../bower_components/animate.css/animate.scss */
 .fadeOutRightBig {
   -webkit-animation-name: fadeOutRightBig;
@@ -1765,7 +1700,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-20px);
   }
 }
-
 @keyframes fadeOutUp {
   /* line 1482, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1783,7 +1717,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-20px);
   }
 }
-
 /* line 1497, ../bower_components/animate.css/animate.scss */
 .fadeOutUp {
   -webkit-animation-name: fadeOutUp;
@@ -1805,7 +1738,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-2000px);
   }
 }
-
 @keyframes fadeOutUpBig {
   /* line 1517, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1823,7 +1755,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-2000px);
   }
 }
-
 /* line 1532, ../bower_components/animate.css/animate.scss */
 .fadeOutUpBig {
   -webkit-animation-name: fadeOutUpBig;
@@ -1871,7 +1802,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-in;
   }
 }
-
 @keyframes flip {
   /* line 1575, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1918,7 +1848,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-timing-function: ease-in;
   }
 }
-
 /* line 1616, ../bower_components/animate.css/animate.scss */
 .animated.flip {
   -webkit-backface-visibility: visible;
@@ -1955,7 +1884,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 @keyframes flipInX {
   /* line 1649, ../bower_components/animate.css/animate.scss */
   0% {
@@ -1987,7 +1915,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 /* line 1676, ../bower_components/animate.css/animate.scss */
 .flipInX {
   -webkit-backface-visibility: visible !important;
@@ -2024,7 +1951,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 @keyframes flipInY {
   /* line 1709, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2056,7 +1982,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 /* line 1736, ../bower_components/animate.css/animate.scss */
 .flipInY {
   -webkit-backface-visibility: visible !important;
@@ -2081,7 +2006,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 @keyframes flipOutX {
   /* line 1759, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2099,7 +2023,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 /* line 1774, ../bower_components/animate.css/animate.scss */
 .flipOutX {
   -webkit-animation-name: flipOutX;
@@ -2124,7 +2047,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 @keyframes flipOutY {
   /* line 1797, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2142,7 +2064,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 /* line 1812, ../bower_components/animate.css/animate.scss */
 .flipOutY {
   -webkit-backface-visibility: visible !important;
@@ -2181,7 +2102,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 @keyframes lightSpeedIn {
   /* line 1847, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2215,7 +2135,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 /* line 1876, ../bower_components/animate.css/animate.scss */
 .lightSpeedIn {
   -webkit-animation-name: lightSpeedIn;
@@ -2239,7 +2158,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 @keyframes lightSpeedOut {
   /* line 1898, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2257,7 +2175,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 /* line 1913, ../bower_components/animate.css/animate.scss */
 .lightSpeedOut {
   -webkit-animation-name: lightSpeedOut;
@@ -2285,7 +2202,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 @keyframes rotateIn {
   /* line 1939, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2309,7 +2225,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 /* line 1960, ../bower_components/animate.css/animate.scss */
 .rotateIn {
   -webkit-animation-name: rotateIn;
@@ -2335,7 +2250,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 @keyframes rotateInDownLeft {
   /* line 1984, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2359,7 +2273,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 /* line 2005, ../bower_components/animate.css/animate.scss */
 .rotateInDownLeft {
   -webkit-animation-name: rotateInDownLeft;
@@ -2385,7 +2298,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 @keyframes rotateInDownRight {
   /* line 2029, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2409,7 +2321,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 /* line 2050, ../bower_components/animate.css/animate.scss */
 .rotateInDownRight {
   -webkit-animation-name: rotateInDownRight;
@@ -2435,7 +2346,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 @keyframes rotateInUpLeft {
   /* line 2074, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2459,7 +2369,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 /* line 2095, ../bower_components/animate.css/animate.scss */
 .rotateInUpLeft {
   -webkit-animation-name: rotateInUpLeft;
@@ -2485,7 +2394,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 @keyframes rotateInUpRight {
   /* line 2119, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2509,7 +2417,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
-
 /* line 2140, ../bower_components/animate.css/animate.scss */
 .rotateInUpRight {
   -webkit-animation-name: rotateInUpRight;
@@ -2535,7 +2442,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 @keyframes rotateOut {
   /* line 2164, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2559,7 +2465,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 /* line 2185, ../bower_components/animate.css/animate.scss */
 .rotateOut {
   -webkit-animation-name: rotateOut;
@@ -2585,7 +2490,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 @keyframes rotateOutDownLeft {
   /* line 2209, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2609,7 +2513,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 /* line 2230, ../bower_components/animate.css/animate.scss */
 .rotateOutDownLeft {
   -webkit-animation-name: rotateOutDownLeft;
@@ -2635,7 +2538,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 @keyframes rotateOutDownRight {
   /* line 2254, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2659,7 +2561,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 /* line 2275, ../bower_components/animate.css/animate.scss */
 .rotateOutDownRight {
   -webkit-animation-name: rotateOutDownRight;
@@ -2683,7 +2584,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 @keyframes rotateOutUpLeft {
   /* line 2297, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2703,7 +2603,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 /* line 2314, ../bower_components/animate.css/animate.scss */
 .rotateOutUpLeft {
   -webkit-animation-name: rotateOutUpLeft;
@@ -2729,7 +2628,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 @keyframes rotateOutUpRight {
   /* line 2338, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2753,7 +2651,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 /* line 2359, ../bower_components/animate.css/animate.scss */
 .rotateOutUpRight {
   -webkit-animation-name: rotateOutUpRight;
@@ -2774,7 +2671,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-
 @keyframes slideInDown {
   /* line 2378, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2791,7 +2687,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(0);
   }
 }
-
 /* line 2392, ../bower_components/animate.css/animate.scss */
 .slideInDown {
   -webkit-animation-name: slideInDown;
@@ -2812,7 +2707,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 @keyframes slideInLeft {
   /* line 2411, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2829,7 +2723,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 /* line 2425, ../bower_components/animate.css/animate.scss */
 .slideInLeft {
   -webkit-animation-name: slideInLeft;
@@ -2850,7 +2743,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 @keyframes slideInRight {
   /* line 2444, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2867,7 +2759,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0);
   }
 }
-
 /* line 2458, ../bower_components/animate.css/animate.scss */
 .slideInRight {
   -webkit-animation-name: slideInRight;
@@ -2888,7 +2779,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-2000px);
   }
 }
-
 @keyframes slideOutLeft {
   /* line 2477, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2905,7 +2795,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-2000px);
   }
 }
-
 /* line 2491, ../bower_components/animate.css/animate.scss */
 .slideOutLeft {
   -webkit-animation-name: slideOutLeft;
@@ -2926,7 +2815,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(2000px);
   }
 }
-
 @keyframes slideOutRight {
   /* line 2510, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2943,7 +2831,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(2000px);
   }
 }
-
 /* line 2524, ../bower_components/animate.css/animate.scss */
 .slideOutRight {
   -webkit-animation-name: slideOutRight;
@@ -2964,7 +2851,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-2000px);
   }
 }
-
 @keyframes slideOutUp {
   /* line 2543, ../bower_components/animate.css/animate.scss */
   0% {
@@ -2981,7 +2867,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateY(-2000px);
   }
 }
-
 /* line 2557, ../bower_components/animate.css/animate.scss */
 .slideOutUp {
   -webkit-animation-name: slideOutUp;
@@ -3037,7 +2922,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 @keyframes hinge {
   /* line 2608, ../bower_components/animate.css/animate.scss */
   0% {
@@ -3096,7 +2980,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
   }
 }
-
 /* line 2661, ../bower_components/animate.css/animate.scss */
 .hinge {
   -webkit-animation-name: hinge;
@@ -3119,7 +3002,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0px) rotate(0deg);
   }
 }
-
 @keyframes rollIn {
   /* line 2683, ../bower_components/animate.css/animate.scss */
   0% {
@@ -3137,7 +3019,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(0px) rotate(0deg);
   }
 }
-
 /* line 2698, ../bower_components/animate.css/animate.scss */
 .rollIn {
   -webkit-animation-name: rollIn;
@@ -3160,7 +3041,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(100%) rotate(120deg);
   }
 }
-
 @keyframes rollOut {
   /* line 2720, ../bower_components/animate.css/animate.scss */
   0% {
@@ -3178,59 +3058,58 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(100%) rotate(120deg);
   }
 }
-
 /* line 2735, ../bower_components/animate.css/animate.scss */
 .rollOut {
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
 }
 
-/* line 5, ../sass/master.scss */
+/* line 25, ../sass/master.scss */
 * {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 9, ../sass/master.scss */
+/* line 29, ../sass/master.scss */
 html {
   background-color: #000;
 }
 
-/* line 13, ../sass/master.scss */
+/* line 33, ../sass/master.scss */
 body.animated {
   -webkit-animation-duration: 4s;
   animation-duration: 4s;
   -webkit-animation-delay: .5s;
 }
 
-/* line 19, ../sass/master.scss */
+/* line 39, ../sass/master.scss */
 .wrapper {
   visibility: hidden;
 }
-/* line 22, ../sass/master.scss */
+/* line 42, ../sass/master.scss */
 .wrapper.animated {
   visibility: visible;
 }
 
-/* line 27, ../sass/master.scss */
+/* line 47, ../sass/master.scss */
 .container {
-  -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-/* line 31, ../sass/master.scss */
+/* line 51, ../sass/master.scss */
 .active {
   -webkit-transform: scale(1.05, 1.05);
   -webkit-filter: blur(5px);
   opacity: .4;
 }
-/* line 32, ../sass/master.scss */
+/* line 52, ../sass/master.scss */
 .active .row {
   -webkit-animation-play-state: paused;
 }
 
-/* line 40, ../sass/master.scss */
+/* line 60, ../sass/master.scss */
 .row {
   display: block;
   width: 100%;
@@ -3238,18 +3117,17 @@ body.animated {
 }
 
 @-webkit-keyframes animatedBackground {
-  /* line 47, ../sass/master.scss */
+  /* line 67, ../sass/master.scss */
   from {
     background-position: 1467px 0;
   }
 
-  /* line 48, ../sass/master.scss */
+  /* line 68, ../sass/master.scss */
   to {
     background-position: 0 0;
   }
 }
-
-/* line 51, ../sass/master.scss */
+/* line 71, ../sass/master.scss */
 .row-1 {
   background-image: url(../images/row-1.jpg);
   background-position: 10px 0px;
@@ -3259,7 +3137,7 @@ body.animated {
   -ms-animation: animatedBackground 30s linear infinite;
 }
 
-/* line 60, ../sass/master.scss */
+/* line 80, ../sass/master.scss */
 .row-2 {
   background-image: url(../images/row-2.jpg);
   background-position: 30px 0px;
@@ -3269,7 +3147,7 @@ body.animated {
   -ms-animation: animatedBackground 35s linear infinite;
 }
 
-/* line 69, ../sass/master.scss */
+/* line 89, ../sass/master.scss */
 .row-3 {
   background-image: url(../images/row-3.jpg);
   background-position: -20px 0px;
@@ -3279,7 +3157,7 @@ body.animated {
   -ms-animation: animatedBackground 40s linear infinite;
 }
 
-/* line 78, ../sass/master.scss */
+/* line 98, ../sass/master.scss */
 .row-4 {
   background-image: url(../images/row-4.jpg);
   background-position: 50px 0px;
@@ -3289,7 +3167,7 @@ body.animated {
   -ms-animation: animatedBackground 45s linear infinite;
 }
 
-/* line 87, ../sass/master.scss */
+/* line 107, ../sass/master.scss */
 .row-5 {
   background-image: url(../images/row-5.jpg);
   background-position: 0px 0px;
@@ -3299,21 +3177,20 @@ body.animated {
   -ms-animation: animatedBackground 55s linear infinite;
 }
 
-/* line 96, ../sass/master.scss */
+/* line 116, ../sass/master.scss */
 footer {
   width: 100%;
   height: 700px;
   position: absolute;
   bottom: 0px;
   pointer-events: none !important;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0), #000000);
   background: -moz-linear-gradient(rgba(0, 0, 0, 0), #000000);
   background: -o-linear-gradient(rgba(0, 0, 0, 0), #000000);
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0), #000000);
   background: linear-gradient(rgba(0, 0, 0, 0), #000000);
 }
 
-/* line 105, ../sass/master.scss */
+/* line 125, ../sass/master.scss */
 a.cta {
   position: absolute;
   bottom: 70px;
@@ -3321,46 +3198,32 @@ a.cta {
   padding: 18px 25px 14px;
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
+  font-family: frutiger, 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
   color: #fff;
   background-color: #198c45;
   text-decoration: none;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
   border-radius: 3px;
 }
-/* line 119, ../sass/master.scss */
+/* line 139, ../sass/master.scss */
 a.cta:active {
   bottom: 69px;
 }
 
-/* line 124, ../sass/master.scss */
+/* line 144, ../sass/master.scss */
 .legal {
   width: 380px;
   position: absolute;
   bottom: 77px;
   right: 200px;
-  font-family: 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
+  font-family: frutiger, 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
   font-size: 13px;
   line-height: 19px;
   text-align: right;
   color: #4d4841;
 }
 
-/* line 136, ../sass/master.scss */
-.child-profile {
-  display: none;
-  width: 904px;
-  height: 492px;
-  margin: auto;
-  position: absolute;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-/* line 146, ../sass/master.scss */
+/* line 162, ../sass/master.scss */
 .loading {
   display: block;
   width: 40px;
@@ -3372,4 +3235,417 @@ a.cta:active {
   left: 0;
   bottom: 0;
   right: 0;
+}
+
+/* line 172, ../sass/master.scss */
+.child_profile {
+  display: none;
+  width: 885px;
+  margin: 37px auto;
+  position: relative;
+  font-family: frutiger, 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  *zoom: 1;
+  -moz-transition: 0.2s all ease-in-out;
+  -o-transition: 0.2s all ease-in-out;
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+  background-color: #fff;
+}
+/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
+.child_profile:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 184, ../sass/master.scss */
+.child_profile_header {
+  height: 74px;
+  padding: 0 0 0 2.82486%;
+  position: relative;
+  z-index: 10;
+  *zoom: 1;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+}
+/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
+.child_profile_header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 193, ../sass/master.scss */
+.child_name {
+  margin: 27px 0 0 0;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  color: #198c45;
+}
+
+/* line 201, ../sass/master.scss */
+.last_name {
+  color: #a0a0a0;
+}
+
+/* line 205, ../sass/master.scss */
+.child_profile_header_info {
+  height: 100%;
+  float: right;
+  overflow: hidden;
+}
+/* line 210, ../sass/master.scss */
+.child_profile_header_info a {
+  text-decoration: none;
+}
+
+/* line 215, ../sass/master.scss */
+.condition_container {
+  display: block;
+  height: 100%;
+  padding: 21px 25px 16px;
+  float: left;
+  border-left: 1px solid #e5e5e5;
+  line-height: 20px;
+}
+/* line 223, ../sass/master.scss */
+.condition_container:hover {
+  cursor: pointer;
+}
+
+/* line 228, ../sass/master.scss */
+.condition, .country {
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #198c45;
+}
+
+/* line 236, ../sass/master.scss */
+.child_profile_header .label {
+  display: block;
+  margin: 0 0 -2px 0;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #a0a0a0;
+}
+
+/* line 245, ../sass/master.scss */
+.country_container {
+  display: block;
+  padding: 21px 25px 16px;
+  float: right;
+  border-left: 1px solid #e5e5e5;
+  line-height: 20px;
+}
+
+/* line 253, ../sass/master.scss */
+.child_photos_container {
+  padding: 26px 2.25989%;
+  background-color: #ebebeb;
+  *zoom: 1;
+}
+/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
+.child_photos_container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 259, ../sass/master.scss */
+.child_photo_container {
+  display: block;
+  width: 30.52023%;
+  height: 168px;
+  margin: 0 1.58192% 0 0;
+  position: relative;
+  left: 7px;
+  border: 4px solid #fff;
+  float: left;
+  overflow: hidden;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+/* line 271, ../sass/master.scss */
+.child_photo_container:last-child {
+  margin-right: 0px;
+}
+/* line 275, ../sass/master.scss */
+.child_photo_container .icon_zoom {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  background-image: url(/images/zoom_icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  -moz-transition: 0.2s all ease-in-out;
+  -o-transition: 0.2s all ease-in-out;
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 13 / 10), only screen and (min-resolution: 120dpi) {
+  /* line 275, ../sass/master.scss */
+  .child_photo_container .icon_zoom {
+    background-image: url(/img/ck_giving_process/zoom_icon.png@2x.png);
+    -moz-background-size: 301px, 113px;
+    -o-background-size: 301px, 113px;
+    -webkit-background-size: 301px, 113px;
+    background-size: 301px, 113px;
+  }
+}
+/* line 293, ../sass/master.scss */
+.child_photo_container:hover .icon_zoom {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+/* line 298, ../sass/master.scss */
+.child_photo {
+  width: 100%;
+  position: relative;
+  top: -15%;
+}
+
+/* line 304, ../sass/master.scss */
+.child_profile_body {
+  position: relative;
+  z-index: 10;
+  -moz-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.15);
+  *zoom: 1;
+}
+/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
+.child_profile_body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 311, ../sass/master.scss */
+.child_info {
+  width: 32.88136%;
+  margin-bottom: -100%;
+}
+/* line 315, ../sass/master.scss */
+.child_info li {
+  padding: 17px 23px 11px 25px;
+  border-bottom: 1px solid #e8e7e4;
+  font-size: 14px;
+  color: #555;
+  -webkit-text-size-adjust: 100%;
+}
+/* line 322, ../sass/master.scss */
+.child_info li.duplicate_info {
+  display: none;
+}
+/* line 327, ../sass/master.scss */
+.child_info .label {
+  font-weight: 800;
+  color: #555;
+}
+
+/* line 333, ../sass/master.scss */
+a.primary_button {
+  padding: 14px 0px 12px;
+  font-size: 20px;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Trebuchet ms", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF1D9F51', endColorstr='#FF157B3B');
+  background-image: -moz-linear-gradient(top, #1d9f51 0%, #157b3b 100%);
+  background-image: -o-linear-gradient(top, #1d9f51 0%, #157b3b 100%);
+  background-image: -webkit-linear-gradient(top, #1d9f51 0%, #157b3b 100%);
+  background-image: linear-gradient(to bottom, #1d9f51 0%, #157b3b 100%);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 0 1px #126431, inset 0 1px 0 #5dbb82, 0 1px 5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 0 1px #126431, inset 0 1px 0 #5dbb82, 0 1px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 0 1px #126431, inset 0 1px 0 #5dbb82, 0 1px 5px rgba(0, 0, 0, 0.6);
+  -moz-transition: 0.1s all ease-in-out;
+  -o-transition: 0.1s all ease-in-out;
+  -webkit-transition: 0.1s all ease-in-out;
+  transition: 0.1s all ease-in-out;
+}
+/* line 352, ../sass/master.scss */
+a.primary_button:hover {
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF1D9F51', endColorstr='#FF157B3B');
+  background-image: -moz-linear-gradient(top, #1d9f51 30%, #157b3b 130%);
+  background-image: -o-linear-gradient(top, #1d9f51 30%, #157b3b 130%);
+  background-image: -webkit-linear-gradient(top, #1d9f51 30%, #157b3b 130%);
+  background-image: linear-gradient(to bottom, #1d9f51 30%, #157b3b 130%);
+  -moz-box-shadow: 0 0 0 1px #126431, inset 0 1px 0 #60c287, 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0 1px #126431, inset 0 1px 0 #60c287, 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 1px #126431, inset 0 1px 0 #60c287, 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+/* line 362, ../sass/master.scss */
+a.primary_button:active {
+  top: 0px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF116F2D', endColorstr='#FF1B8E46');
+  background-image: -moz-linear-gradient(top, #116f2d 0%, #1b8e46 100%);
+  background-image: -o-linear-gradient(top, #116f2d 0%, #1b8e46 100%);
+  background-image: -webkit-linear-gradient(top, #116f2d 0%, #1b8e46 100%);
+  background-image: linear-gradient(to bottom, #116f2d 0%, #1b8e46 100%);
+  -moz-box-shadow: 0 0 0 1px #11622f, inset 0 -1px 0 #3b9a5e, inset 0 1px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 0 1px #11622f, inset 0 -1px 0 #3b9a5e, inset 0 1px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0 1px #11622f, inset 0 -1px 0 #3b9a5e, inset 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* line 374, ../sass/master.scss */
+.child_profile .primary_button {
+  float: left;
+  clear: left;
+  width: 28.0226%;
+  margin: 110px 0 24px 2.48588%;
+}
+
+/* line 381, ../sass/master.scss */
+.child_about {
+  width: 66.89266%;
+  float: right;
+  border-left: 1px solid #e8e7e4;
+}
+
+/* line 387, ../sass/master.scss */
+.child_bio {
+  padding: 24px 30px 20px;
+  border-bottom: 1px solid #e8e7e4;
+  color: #666;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 394, ../sass/master.scss */
+.child_supporters {
+  margin-top: 9px;
+  *zoom: 1;
+}
+/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
+.child_supporters:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 399, ../sass/master.scss */
+a.read_more {
+  text-decoration: none;
+  border-bottom: 1px dotted #198c45;
+  color: #198c45;
+}
+
+/* line 405, ../sass/master.scss */
+.supporters_meter_container {
+  width: 38%;
+  padding: 19px 3px 19px 29px;
+  float: left;
+}
+
+/* line 411, ../sass/master.scss */
+.supporters_needed {
+  margin: 0 0 5px 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+}
+
+/* line 418, ../sass/master.scss */
+.supporters_meter {
+  width: 100%;
+  height: 16px;
+  position: relative;
+  border: 1px solid #0a4822;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 425, ../sass/master.scss */
+.supporters_meter:after {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #198c45;
+}
+
+/* line 436, ../sass/master.scss */
+.supporters_meter_section {
+  height: 16px;
+  float: left;
+  position: relative;
+  z-index: 10;
+  text-indent: -100%;
+  white-space: nowrap;
+  overflow: hidden;
+  -moz-box-shadow: inset -1px 0 0 #0a4822;
+  -webkit-box-shadow: inset -1px 0 0 #0a4822;
+  box-shadow: inset -1px 0 0 #0a4822;
+}
+/* line 446, ../sass/master.scss */
+.supporters_meter_section.filled {
+  background-color: #198c45;
+}
+/* line 450, ../sass/master.scss */
+.supporters_meter_section:last-child {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 456, ../sass/master.scss */
+.six_units .supporters_meter_section {
+  width: 16.67%;
+}
+
+/* line 462, ../sass/master.scss */
+.three_units .supporters_meter_section {
+  width: 33.33333333%;
+}
+
+/* line 467, ../sass/master.scss */
+.about_supporters_meter {
+  width: 48%;
+  padding: 25px 24px 23px;
+  float: left;
+  font-size: 12px;
+  line-height: 17px;
+  color: #7a7a7a;
+}
+
+/* line 476, ../sass/master.scss */
+.child_about {
+  width: 67%;
+  margin-bottom: -17px;
+  bordˆer-left: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 482, ../sass/master.scss */
+.child_about .child_bio {
+  font-size: 14px;
+  line-height: 22px;
 }

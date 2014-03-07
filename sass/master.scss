@@ -1,6 +1,26 @@
 @import "compass/reset";
 @import "compass/css3";
+@import "compass/utilities/general/clearfix";
 @import "../bower_components/animate.css/animate.scss";
+
+$primary-green: #198c45;
+
+@mixin image-2x($image, $width: auto, $height: $width) {
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3),
+         only screen and (-o-min-device-pixel-ratio: 13/10),
+         only screen and (min-resolution: 120dpi) {
+    background-image: url(/img/ck_giving_process/#{$image});
+    @if $width != auto { 
+      @include background-size($width, $height);
+    }
+  }
+}
+
+%ir {
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
 
 * {
 	-webkit-font-smoothing: antialiased;
@@ -109,7 +129,7 @@ a.cta {
 	padding: 18px 25px 14px;
 	font-size: 20px;
 	font-weight: bold;
-	font-family: 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
+	font-family: frutiger, 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
 	color: #fff;
 	background-color: #198c45;
 	text-decoration: none;
@@ -126,22 +146,18 @@ a.cta {
 	position: absolute;
 	bottom: 77px;
 	right: 200px;
-	font-family: 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
+	font-family: frutiger, 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
 	font-size: 13px;
 	line-height: 19px;
 	text-align: right;
 	color: #4d4841;
 }
 
-.child-profile {
-	display: none;
-	width: 904px;
-	height: 492px;
-	margin: auto;
-	position: absolute;
-	z-index: 100;
-	top: 0; left: 0; bottom: 0; right: 0;
-}
+// .child-profile {
+// 	position: absolute;
+// 	z-index: 100;
+// 	top: 0; left: 0; bottom: 0; right: 0;
+// }
 
 .loading {
 	display: block;
@@ -151,4 +167,320 @@ a.cta {
 	position: absolute;
 	z-index: 1000;
 	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.child_profile {
+	display: none;
+    width: 885px;
+    margin: 37px auto;
+    position: relative;
+    font-family: frutiger, 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
+    @include border-radius(3px);
+    @include pie-clearfix();
+    @include transition(.2s all ease-in-out);
+    background-color: #fff;
+}
+
+.child_profile_header {
+	height: 74px;
+    padding: 0 0 0 percentage(25/885);
+    position: relative;
+    z-index: 10;
+    @include pie-clearfix();
+    @include box-shadow(0 1px 4px rgba(0,0,0, .26));
+}
+
+.child_name {
+	margin: 27px 0 0 0;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: $primary_green;
+}
+
+.last_name {
+    color: #a0a0a0;
+}
+
+.child_profile_header_info {
+	height: 100%;
+    float: right;
+    overflow: hidden;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.condition_container {
+    display: block;
+    height: 100%;
+    padding: 21px 25px 16px;
+    float: left;
+    border-left: 1px solid #e5e5e5;
+    line-height: 20px;
+    
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.condition, .country {
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $primary-green;
+}
+
+.child_profile_header .label {
+    display: block;
+    margin: 0 0 -2px 0;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #a0a0a0;
+}
+
+.country_container {
+    display: block;
+    padding: 21px 25px 16px;
+    float: right;
+    border-left: 1px solid #e5e5e5;
+    line-height: 20px;
+}
+
+.child_photos_container {
+    padding: 26px percentage(20/885);
+    background-color: #ebebeb;
+    @include pie-clearfix();
+}
+
+.child_photo_container {
+    display: block;
+    width: percentage(264/865);
+    height: 168px;
+    margin: 0 percentage(14/885) 0 0;
+    position: relative;
+    left: 7px;
+    border: 4px solid #fff;
+    float: left;
+    overflow: hidden;
+    @include box-shadow(0 1px 3px rgba(0,0,0, .3));
+
+    &:last-child {
+        margin-right: 0px;
+    }
+    
+    .icon_zoom {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        background-image: url(/images/zoom_icon.png);
+        @include image-2x('zoom_icon.png@2x.png', 301px, 113px);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgba(0,0,0, .5);
+        @include transition(.2s all ease-in-out);
+        
+        @include opacity(0);
+    }
+    
+    &:hover .icon_zoom {
+        @include opacity(1);
+    }
+}
+
+.child_photo {
+    width: 100%;
+    position: relative;
+    top: -15%;
+}
+
+.child_profile_body {
+    position: relative;
+    z-index: 10;
+    @include box-shadow(0 -1px 3px rgba(0,0,0, .15));
+    @include pie-clearfix();
+}
+
+.child_info {
+    width: percentage(291/885);
+    margin-bottom: -100%;
+    
+    li {
+        padding: 17px 23px 11px 25px;
+        border-bottom: 1px solid #e8e7e4;
+        font-size: 14px;
+        color: #555;
+        -webkit-text-size-adjust: 100%;
+
+        &.duplicate_info {
+            display: none;
+        }
+    }
+    
+    .label {
+        font-weight: 800;
+        color: #555;
+    }
+}
+
+a.primary_button {
+    padding: 14px 0px 12px;
+    font-size: 20px;
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Trebuchet ms", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0, .5);
+    @include filter-gradient(#1d9f51, #157b3b, vertical); // IE6-9
+    @include background-image(linear-gradient(top,  #1d9f51 0%,#157b3b 100%));
+    @include border-radius(3px);
+    @include box-shadow(
+        0 0 0 1px #126431,         // Dark border
+        inset 0 1px 0 #5dbb82,     // Top inner highlight
+        0 1px 5px rgba(0,0,0, .6)  // Bottom soft shadow
+        );
+    @include transition(.1s all ease-in-out);
+        
+    &:hover {
+        @include filter-gradient(#1d9f51, #157b3b, vertical); // IE6-9
+        @include background-image(linear-gradient(top,  #1d9f51 30%,#157b3b 130%));
+        @include box-shadow(
+            0 0 0 1px #126431,         // Dark border
+            inset 0 1px 0 #60c287,     // Top inner highlight
+            0 1px 3px rgba(0,0,0, .5)  // Bottom soft shadow
+        );
+    }
+    
+    &:active {
+        top: 0px;
+        @include filter-gradient(#116f2d, #1b8e46, vertical); // IE6-9
+        @include background-image(linear-gradient(top,  #116f2d 0%,#1b8e46 100%));
+        @include box-shadow(
+            0 0 0 1px #11622f,               // Dark border
+            inset 0 -1px 0 #3b9a5e,          // Bottom inner highlight
+            inset 0 1px 5px rgba(0,0,0, .3) // Top inner shadow
+        );
+    }
+}
+
+.child_profile .primary_button {
+    float: left;
+    clear: left;
+    width: percentage(248/885);
+    margin: 110px 0 24px percentage(22/885);
+}
+
+.child_about {
+    width: percentage(592/885);
+    float: right;
+    border-left: 1px solid #e8e7e4;
+}
+
+.child_bio {    
+    padding: 24px 30px 20px;
+    border-bottom: 1px solid #e8e7e4;
+    color: #666;
+    -webkit-text-size-adjust: 100%;
+}
+
+.child_supporters {
+	margin-top: 9px;
+	@include pie-clearfix();
+}
+
+a.read_more {
+    text-decoration: none;
+    border-bottom: 1px dotted $primary_green;
+    color: $primary_green;
+}
+
+.supporters_meter_container {
+    width: 38%;
+    padding: 19px 3px 19px 29px;
+    float: left;
+}
+
+.supporters_needed {
+    margin: 0 0 5px 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+
+.supporters_meter {
+    width: 100%;
+    height: 16px;
+    position: relative;
+    border: 1px solid #0a4822;
+    @include border-radius(3px);
+    
+    &:after {
+        content: "";
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: $primary_green;
+    }
+}
+
+.supporters_meter_section {
+    height: 16px;
+    float: left;
+    position: relative;
+    z-index: 10;
+    text-indent: -100%;
+    white-space: nowrap;
+    overflow: hidden;
+    @include box-shadow(inset -1px 0 0 #0a4822);
+
+    &.filled {
+        background-color: $primary_green;
+    }
+
+    &:last-child {
+        @include box-shadow(none);
+    }
+}
+
+.six_units {
+    .supporters_meter_section {
+        width: 16.67%;
+    }
+}
+
+.three_units {
+    .supporters_meter_section {
+        width: 33.33333333%;
+    }
+}
+
+.about_supporters_meter {
+	width: 48%;
+    padding: 25px 24px 23px;
+    float: left;
+    font-size: 12px;
+    line-height: 17px;
+    color: #7a7a7a;
+}
+
+.child_about {
+    width: 67%;
+    margin-bottom: -17px;
+    bordˆer-left: none;
+    @include box-shadow(none);
+
+    .child_bio {
+        font-size: 14px;
+        line-height: 22px;
+    }
 }
