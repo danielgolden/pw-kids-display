@@ -4,17 +4,22 @@ $(function() {
 
 	$('.row').click(function() {
 		if($('.container').hasClass('active')) {
-			$('.child-profile').removeClass('bounceInUp').addClass('bounceOutDown');
+			$('.child_profile').removeClass('bounceInUp').addClass('bounceOutDown');
 			setTimeout(function() {
 				$('.container').removeClass('active');
-				$('.child-profile').hide().removeClass('bounceOutDown animated');
+				$('.child_profile').hide().removeClass('bounceOutDown animated');
 			},500);
 		} else {
 			$('.container').addClass('active');
 			setTimeout(function() {
-				$('.child-profile').show().addClass('animated bounceInUp');
-			}, 00);
+				$('.child_profile').show().addClass('animated bounceInUp');
+			});
 
 		}
+	});
+
+	$('.close-button').click(function() {
+		$('.container').removeClass('active');
+		$('.child_profile').hide().removeClass('bounceOutDown animated');
 	});
 });
