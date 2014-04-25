@@ -27,7 +27,7 @@ $primary-green: #198c45;
 }
 
 html {
-	background-color: #000;
+	background-color: #1d1d1d;
 }
 
 body.animated {
@@ -37,6 +37,7 @@ body.animated {
 }
 
 .wrapper {
+    -webkit-perspective: 1000px;
 	visibility: hidden;
 
 	&.animated {
@@ -44,8 +45,15 @@ body.animated {
 	}
 }
 
+.heading {
+    display: block;
+    width: 1081px;
+    margin: 20px auto -100px;
+}
+
 .container {
-	@include transition(all .3s ease-in-out);
+    -webkit-transform: rotateX(65deg) scale(0.625, 0.625);
+	// @include transition(all .3s ease-in-out);
 }
 
 .active {
@@ -61,6 +69,7 @@ body.animated {
 	display: block;
 	width: 100%;
 	height: 163px;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 @-webkit-keyframes animatedBackground {
@@ -114,8 +123,9 @@ body.animated {
 }
 
 footer {
+    opacity: 0;
 	width: 100%;
-	height: 700px;
+	height: 460px;
 	position: absolute;
 	bottom: 0px;
 	pointer-events:none !important;
@@ -123,6 +133,7 @@ footer {
 }
 
 a.cta {
+    opacity: 0;
 	position: absolute;
 	bottom: 70px;
 	left: 200px;
@@ -146,11 +157,7 @@ a.cta {
 	position: absolute;
 	bottom: 77px;
 	right: 200px;
-<<<<<<< HEAD
 	font-family: 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
-=======
-	font-family: frutiger, 'Frutiger LT Std', myriad, 'myriad pro', helvetica, sans-serif;
->>>>>>> master
 	font-size: 13px;
 	line-height: 19px;
 	text-align: right;
@@ -338,7 +345,7 @@ a.cta {
 a.primary_button {
     padding: 14px 0px 12px;
     font-size: 20px;
-    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Trebuchet ms", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, Helvetica, Arial, sans-serif;
     font-weight: 700;
     text-decoration: none;
     text-align: center;
